@@ -3,8 +3,7 @@ CMSC 14100
 Summer 2024
 Homework #1
 
-We will be using anonymous grading, so please do NOT include your name
-in this file
+YOUR NAME HERE
 
 People Consulted:
    For future assignments, you will be expected to list anyone (other than the
