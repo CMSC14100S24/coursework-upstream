@@ -86,8 +86,17 @@ def is_leap_year(y):
 
     Returns (boolean): True if year y is a leap year, False otherwise.
     """
-
-    return 
+    if y % 4 == 0:
+        if y % 100 == 0:
+            if y % 400 == 0:
+                return True
+            else:
+                return False
+        else:
+            return True
+    else:
+        return False
+   return result 
 
 def is_whole_number(a):
     """
