@@ -1,9 +1,10 @@
+
 """
 CMSC 14100, Summer 2024
 Homework #2
 
 YOUR NAME HERE
-
+Ibrahim
 People Consulted:
    List anyone (other than the course staff) that you consulted about
    this assignment.
@@ -24,9 +25,8 @@ def add_one_and_multiply(a, x):
 
     Returns (int): The result of adding 1 to a and then multiplying by x.
     """
-    ### EXERCISE 1 -- YOUR CODE GOES HERE
-    ### Replace "None" with the correct expression
-    return None
+
+    return (a + 1) * x
 
 
 def is_even(a):
@@ -39,11 +39,9 @@ def is_even(a):
 
     Returns (boolean): True if a is even, False otherwise.
     """
-    ### EXERCISE 2 -- YOUR CODE GOES HERE
-    ### Replace "None" with the correct expression
-    result = None
 
-    ### DO NOT MODIFY THE FOLLOWING LINE!
+    result = (a % 2 == 0)
+
     return result
 
 
@@ -56,11 +54,9 @@ def to_celsius(f):
 
     Returns (float): The temperature in Celsius
     """
-    ### EXERCISE 3 -- YOUR CODE GOES HERE
-    ### Replace "None" with the correct expression
-    result = None
 
-    ### DO NOT MODIFY THE FOLLOWING LINE!
+    result = (f - 32) * 5/9
+
     return result
 
 def quadratic(a, b, c, x):
@@ -75,11 +71,9 @@ def quadratic(a, b, c, x):
 
     Returns (float): The result of the quadratic expression
     """
-    ### EXERCISE 4 -- YOUR CODE GOES HERE
-    ### Replace "None" with the correct expression
-    result = None
 
-    ### DO NOT MODIFY THE FOLLOWING LINE!
+    result = a * x**2 +b * x + c
+
     return result
 
 
@@ -92,13 +86,8 @@ def is_leap_year(y):
 
     Returns (boolean): True if year y is a leap year, False otherwise.
     """
-    ### EXERCISE 5 -- YOUR CODE GOES HERE
-    ### Replace "None" with the correct expression
-    ### You may add one or more assignment statements if you find it helpful.
-    result = None
 
-    ### DO NOT MODIFY THE FOLLOWING LINE!
-    return result
+    return 
 
 def is_whole_number(a):
     """
@@ -110,11 +99,9 @@ def is_whole_number(a):
 
     Returns (boolean): True if a is a whole number, False otherwise. 
     """
-    ### EXERCISE 6 -- YOUR CODE GOES HERE
-    ### Replace "None" with the correct expression
-    result = None
 
-    ### DO NOT MODIFY THE FOLLOWING LINE!
+    result = a >= 0 and int(a) == a
+
     return result
 
 
@@ -127,14 +114,18 @@ def is_leap_year_reprise(y):
 
     Returns (boolean): True if year y is a leap year, False otherwise.
     """
-    ### EXERCISE 7 -- YOUR CODE GOES HERE
-    ### Replace "None" with the correct expression
-    ### You may add one or more assignment statements and conditionals before
-    ###   assigning result a value if you find it helpful. 
-    ### You may also find your self assigning result a value in multiple places.
-    result = None
 
-    ### DO NOT MODIFY THE FOLLOWING LINE!
+    if y % 4 == 0:
+        if y % 100 == 0:
+            if y % 400 == 0:
+                result = True
+            else:
+                result = False
+        else:
+            result = True
+    else: 
+        result = False
+
     return result
 
 def is_odd(a):
@@ -147,13 +138,12 @@ def is_odd(a):
 
     Returns (boolean): True if the number is odd, False otherwise.
     """
-    ### EXERCISE 8 -- YOUR CODE GOES HERE
-    ### Replace "None" with the correct expression
-    ### You may add one or more assignment statements and conditionals if you 
-    ###  find it helpful. 
-    result = None
 
-    ### DO NOT MODIFY THE FOLLOWING LINE!
+    if a % 2 == int:
+        result = False
+    else:
+        result = True
+
     return result
 
 def shipping_cost(w, d):
@@ -167,13 +157,12 @@ def shipping_cost(w, d):
 
     Returns (int): The dollar value of the shipping cost
     """
-    ### EXERCISE 9 -- YOUR CODE GOES HERE
-    ### Replace "None" with the correct expression
-    ### You may add one or more assignment statements and conditionals if you 
-    ###  find it helpful. 
-    result = None
 
-    ### DO NOT MODIFY THE FOLLOWING LINE!
+    base_cost = 5
+    cost_per_kg = 2
+    cost_per_mile = 0.5
+    result = base_cost + w *cost_per_kg + d * cost_per_mile
+
     return result
 
 def median_of_three(a, b, c):
@@ -187,12 +176,12 @@ def median_of_three(a, b, c):
 
     Returns (number): The middle value of the three numbers. 
     """
-    ### EXERCISE 10 -- YOUR CODE GOES HERE
-    ### Replace "None" with the correct expression
-    ### You may add one or more assignment statements and conditionals if you 
-    ###  find it helpful. 
-    result = None
-
-    ### DO NOT MODIFY THE FOLLOWING LINE!
+ 
+    if (a <= b <= c) or (c <= b <= a):
+        result = b
+    elif (b <= a <= c) or (c <= a <=b):
+        result = a
+    else:
+        result = c
+    
     return result
-

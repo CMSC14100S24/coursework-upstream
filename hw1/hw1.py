@@ -3,7 +3,7 @@ CMSC 14100
 Summer 2024
 Homework #1
 
-YOUR NAME HERE
+Ibrahim Shamyl
 
 People Consulted:
    For future assignments, you will be expected to list anyone (other than the
@@ -16,7 +16,7 @@ Online resources consulted:
 
 def add1and1():
    # Replace None with 1 + 1 in the next line.
-    return None
+    return 1 + 1 
 
 if __name__ == "__main__":
     print("1 + 1 is", add1and1())
