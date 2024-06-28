@@ -1,0 +1,42 @@
+[
+    [
+        {"Song": "Rush", "Artist": "Troye Sivan", "ArtistCount": 1, "ReleasedYear": 2023,
+         "NumSpotifyPlaylists": 864, "Streams": 22581161, "BPM": 126, "Key": "F", "Mode": "Minor"},
+        "Rush by Troye Sivan was released in 2023"
+    ],
+    [
+        {"Song": "Overdrive", "Artist": "Post Malone", "ArtistCount": 1, "ReleasedYear": 2023,
+         "NumSpotifyPlaylists": 410, "Streams": 14780425, "BPM": 140, "Key": "C#", "Mode": "Major"},
+        "Overdrive by Post Malone was released in 2023"
+    ],
+    [
+        {"Song": "Dance Monkey", "Artist": "Tones and I", "ArtistCount": 1, "ReleasedYear": 2019,
+         "NumSpotifyPlaylists": 1100, "Streams": 50000000, "BPM": 98, "Key": "F#", "Mode": "Major"},
+        "Dance Monkey by Tones and I was released in 2019"
+    ],
+    [
+        {"Song": "", "Artist": "", "ReleasedYear": "",
+         "NumSpotifyPlaylists": 500, "Streams": 25000000, "BPM": 132, "Key": "G", "Mode": "Major"},
+        " by  was released in "
+    ],
+    [
+        {"Song": "Señorita", "Artist": "Shawn Mendes & Camila Cabello", "ReleasedYear": 2019,
+         "NumSpotifyPlaylists": 900, "Streams": 40000000, "BPM": 116, "Key": "A", "Mode": "Minor"},
+        "Señorita by Shawn Mendes & Camila Cabello was released in 2019"
+    ],
+    [
+        {"Song": "Peaches", "Artist": "Justin Bieber", "ReleasedYear": 2021,
+         "NumSpotifyPlaylists": 1200, "Streams": 60000000, "BPM": 90, "Key": "D", "Mode": "Major"},
+        "Peaches by Justin Bieber was released in 2021"
+    ],
+    [
+        {"Song": "Rain On Me", "Artist": "Lady Gaga & Ariana Grande", "ReleasedYear": 2020,
+         "NumSpotifyPlaylists": 800, "Streams": 35000000, "BPM": 123, "Key": "C", "Mode": "Minor"},
+        "Rain On Me by Lady Gaga & Ariana Grande was released in 2020"
+    ],
+    [
+        {"Song": "I Will Always Love You", "Artist": "Whitney Houston", "ReleasedYear": 1992,
+         "NumSpotifyPlaylists": 1000, "Streams": 45000000, "BPM": 68, "Key": "Bb", "Mode": "Major"},
+        "I Will Always Love You by Whitney Houston was released in 1992"
+    ]
+]
