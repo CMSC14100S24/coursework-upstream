@@ -4,7 +4,7 @@ Summer 2024
 Homework #3
 
 YOUR NAME HERE
-
+Ibrahim
 People Consulted:
    List anyone (other than the course staff) that you consulted about
    this assignment.
@@ -35,9 +35,10 @@ def list_product(numbers):
 
     Returns [int]: the product of all the elements in the list
     """
-    ### TODO: Your code here
-    ### Remove the pass statement in the next line
-    pass
+    product = 1
+    for number in numbers:
+        product *= number
+    return product
 
 
 # Exercise 2
