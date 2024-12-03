@@ -1,9 +1,10 @@
+
 """
 CMSC 14100, Summer 2024
 Homework #2
 
-Ibrahim Shamyl
-
+YOUR NAME HERE
+Ibrahim
 People Consulted:
    List anyone (other than the course staff) that you consulted about
    this assignment.
